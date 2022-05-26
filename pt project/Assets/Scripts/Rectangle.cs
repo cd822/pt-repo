@@ -6,13 +6,13 @@ public class Rectangle : DefaultShape
 {
     [SerializeField] private float rotationSpeed = 350f;
 
-    protected override void PrintShape()
+    protected override void ChangeObject()
     {
         Debug.Log("Rectangle");
     }
 
     protected override void MoveObject()
     {
-        transform.Rotate(Vector3.up, Time.deltaTime * rotationSpeed);
+        transform.Rotate(Vector3.left, Time.deltaTime * rotationSpeed);
     }
 }

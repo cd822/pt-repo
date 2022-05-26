@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Cube : DefaultShape
 {
-    protected override void PrintShape()
+    protected override void ChangeObject()
     {
         Debug.Log("Cube");
     }

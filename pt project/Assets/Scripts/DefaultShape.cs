@@ -32,10 +32,10 @@ public class DefaultShape : MonoBehaviour
 
     private void OnMouseDown()
     {
-        PrintShape();
+        ChangeObject();
     }
 
-    protected virtual void PrintShape()
+    protected virtual void ChangeObject()
     {
         Debug.Log("DefaultShape");
     }

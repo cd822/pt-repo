@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Sphere : DefaultShape
 {
-    protected override void PrintShape()
+    protected override void ChangeObject()
     {
         Debug.Log("Sphere");
     }
