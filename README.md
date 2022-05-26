@@ -1,3 +1,3 @@
 # pt-repo
-final game design project
-unity play link: https://play.unity.com/mg/other/programming-theory-demo
+game design misson 4, 
+ unity play link: https://play.unity.com/mg/other/programming-theory-demo
